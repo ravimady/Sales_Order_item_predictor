@@ -5,4 +5,12 @@ Prediction model that predicts whether a sales order item will delay or not. In 
 
 ## Data Ingestion :
 
-Usually companies rely on Commercial databases based out of SQL. Data is extracted from SAP or any other system equivalent.
+Usually companies rely on Commercial databases based out of SQL. Data is extracted from SAP or any other system equivalent. For demonstration purposes, I will make a hypothetical training dataset and a hypothetical open order dataset.
+
+## Feature list :
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data 1   | Data 2   |
+| Row 2    | Data 3   | Data 4   |
+| Row 3    | Data 5   | Data 6   |
