@@ -15,9 +15,10 @@ Usually companies rely on Commercial databases based out of SQL. Data is extract
 | event date   | Date when an activity change happens   | 
 | SOLD TO   | Customer Number   |
 | PLANT     | Producing Plant   |
+| SHIPTO COUNTRY |               |
+| ROUTE||
 
 
-'SOLDTO', 'PLANT',
        'SHIPTO COUNTRY', 'ROUTE', 'MATERIAL', 'SHIPPING CONDITION',
        'SHIPPING TYPE', 'CS REGION', 'INCOTERM', 'MODALITY',
        'REQUESTED QUANTITY', 'PAYER', 'PAYMENT TERM', 'ORDER TYPE',
