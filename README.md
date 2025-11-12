@@ -9,9 +9,9 @@ Usually companies rely on Commercial databases based out of SQL. Data is extract
 
 ## Feature list :
 
-|  FIELD   |  DESSCRIPTION | Header 3 |
+|  FIELD   |  DESCRIPTION | Header 3 |
 |----------|----------|----------|
-| Row 1    | Data 1   | Data 2   |
-| Row 2    | Data 3   | Data 4   |
+|ID   |  Sales-Order item   | Data 2   |
+| event date   | date when an activity change happens   | Data 4   |
 | Row 3    | Data 5   | Data 6   |
 
