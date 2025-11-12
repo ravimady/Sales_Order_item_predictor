@@ -13,7 +13,9 @@ Usually companies rely on Commercial databases based out of SQL. Data is extract
 |----------|----------|
 |ID   |  Sales-Order item   |
 | event date   | Date when an activity change happens   | 
-| Row 3    | Data 5   |
+| SOLD TO   | Customer Number   |
+| PLANT     | Producing Plant   |
+
 
 'SOLDTO', 'PLANT',
        'SHIPTO COUNTRY', 'ROUTE', 'MATERIAL', 'SHIPPING CONDITION',
