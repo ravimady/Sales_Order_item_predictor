@@ -9,9 +9,30 @@ Usually companies rely on Commercial databases based out of SQL. Data is extract
 
 ## Feature list :
 
-|  FIELD   |  DESCRIPTION | Header 3 |
-|----------|----------|----------|
-|ID   |  Sales-Order item   | Data 2   |
-| event date   | date when an activity change happens   | Data 4   |
-| Row 3    | Data 5   | Data 6   |
+|  FIELD   |  DESCRIPTION |
+|----------|----------|
+|ID   |  Sales-Order item   |
+| event date   | Date when an activity change happens   | 
+| Row 3    | Data 5   |
 
+'SOLDTO', 'PLANT',
+       'SHIPTO COUNTRY', 'ROUTE', 'MATERIAL', 'SHIPPING CONDITION',
+       'SHIPPING TYPE', 'CS REGION', 'INCOTERM', 'MODALITY',
+       'REQUESTED QUANTITY', 'PAYER', 'PAYMENT TERM', 'ORDER TYPE',
+       'SALES OFFICE', 'SALES UNIT', 'SHIPTO', 'SHIPPING POINT',
+       'DCHAIN STATUS', 'CREATED BY', 'WEIGHT UNIT', 'DAYSLEFT RDD VS PLAN GI',
+       'DAYSLEFT RDD VS RDD', 'DAYSLEFT TPT VS PLAN GI', 'DAYSLEFT TPT VS RDD',
+       'DAYSLEFT MAT AVAIL VS PLAN GI', 'DAYSLEFT MAT AVAIL VS RDD',
+       'DAYSLEFT CONFIRM GI DATE  VS PLAN GI',
+       'DAYSLEFT CONFIRM GI DATE VS RDD', 'DAYSLEFT CREDIT HOLD VS PLAN GI',
+       'DAYSLEFT CREDIT HOLD VS RDD', 'CREDIT HOLD OCCURENCCE',
+       'DAYSLEFT DELIVERY BLOCK VS PLAN GI', 'DAYSLEFT DELIVERY BLOCK VS RDD',
+       'DAYSLEFT INCO VS PLAN GI', 'DAYSLEFT INCO VS RDD',
+       'DAYSLEFT ROUTE VS PLAN GI', 'DAYSLEFT ROUTE VS RDD',
+       'DAYSLEFT SHIPTO VS PLAN GI', 'DAYSLEFT SHIPTO VS RDD',
+       'DAYSLEFT SHIPPING POINT VS PLAN GI', 'DAYSLEFT SHIPPING POINT VS RDD',
+       'DAYSLEFT SHIPPING TYPE  VS PLAN GI', 'DAYSLEFT SHIPPING TYPE VS RDD',
+       'THROUGHPUT  CREATE VS CONF', 'THROUGHPUT  CONF VS DEL',
+       'THROUGHPUT DEL VS GI', 'VBAPROUTE_IN_DAYS', 'PLAN GI DATE', 'TPT',
+       'ACTUAL GI DATE', 'RDD', 'SEA TOLERANCE', 'RAIL TOLERANCE',
+       'IN FULL TOLERANCE'
