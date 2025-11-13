@@ -25,4 +25,40 @@ Usually companies rely on Commercial databases based out of SQL. Data is extract
 | DAYSLEFT MAT AVAIL VS RDD | daysleft from the material availabiity date change to the requested delivery date|
 | DAYSLEFT CREDIT HOLD VS RDD | daysleft from the credit hold occurence to the requested delivery date |
 
+## Days Left feature engineering :
 
+### Event-Driven Metrics (DAYSLEFT Columns)
+
+Definition: Difference in days between RDD and relevant milestone dates.
+
+Columns:
+
+DAYSLEFT MAT AVAIL VS RDD
+DAYSLEFT CONFIRM GI DATE VS PLAN GI
+DAYSLEFT CONFIRM GI DATE VS RDD
+DAYSLEFT CREDIT HOLD VS PLAN GI
+DAYSLEFT CREDIT HOLD VS RDD
+DAYSLEFT DELIVERY BLOCK VS PLAN GI
+DAYSLEFT DELIVERY BLOCK VS RDD
+DAYSLEFT INCO VS PLAN GI
+DAYSLEFT INCO VS RDD
+DAYSLEFT ROUTE VS PLAN GI
+DAYSLEFT ROUTE VS RDD
+DAYSLEFT SHIPTO VS PLAN GI
+DAYSLEFT SHIPTO VS RDD
+DAYSLEFT SHIPPING POINT VS PLAN GI
+DAYSLEFT SHIPPING POINT VS RDD
+DAYSLEFT SHIPPING TYPE VS PLAN GI
+DAYSLEFT SHIPPING TYPE VS RDD
+
+
+Logic:
+
+First event: All DAYSLEFT columns = RDD - Event Date.
+Subsequent events: Only selected columns (4 per event) are recalculated; others retain previous values.
+
+### Key Characteristics
+
+Event-driven changes: Simulates real-world updates (e.g., material availability, GI date changes).
+Temporal consistency: All event dates occur before RDD.
+Rich categorical and numeric features: Suitable for classification, regression, and time-series analysis.
